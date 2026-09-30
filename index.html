@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#26734d">
+  <title>동물 분류 탐험대</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="forest" aria-hidden="true">🌿 🌳 🌿</div>
+  <main id="app"></main>
+  <div id="announcement" class="sr-only" aria-live="polite"></div>
+  <dialog id="photo-dialog" aria-labelledby="photo-title">
+    <div class="photo-dialog-header"><h2 id="photo-title">🔎 크게 관찰하기</h2><button id="photo-close" class="secondary" type="button">닫기 ✕</button></div>
+    <div id="photo-content" class="photo-content"></div>
+    <p class="photo-dialog-help">다리와 날개를 자세히 살펴보세요!</p>
+  </dialog>
+  <footer>작은 관찰이 커다란 발견이 돼요 🌱</footer>
+</body>
+</html>
